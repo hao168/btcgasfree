@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        height: 150px;
+        margin: 0;
+        padding: 10px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bitcoin Gas Fee</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Speed</th>
+          <th>Fee</th>
+        </tr>
+      </thead>
+      <tbody id="feeTable">
+        <!-- Fee data will be populated here -->
+      </tbody>
+    </table>
+    <script src="popup.js"></script>
+  </body>
+</html>
